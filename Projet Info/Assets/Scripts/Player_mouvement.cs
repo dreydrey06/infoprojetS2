@@ -8,7 +8,7 @@ public class Player_mouvement : MonoBehaviour {
     public float FowardForce = 1000f;
     public float sidewaysForce = 100f;
     public float UpForce = 50f;  // Variable that determines the sideways force
-
+    public ManagerGame managerGame;
     // Start is called before the first frame update
     void Start()
     {
@@ -37,7 +37,7 @@ public class Player_mouvement : MonoBehaviour {
         }
         
         if (rb.position.y < -5f) {
-           FindObjectOfType<GameManagerScript>().EndGame();
+           managerGame.EndGame();
         }
     }
 }

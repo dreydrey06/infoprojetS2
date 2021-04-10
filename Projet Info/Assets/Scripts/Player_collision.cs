@@ -11,7 +11,7 @@ public class Player_collision : MonoBehaviour
     	if (collisionInfo.collider.tag == "Obstacle")
     	{
     		mouvement.enabled = false;
-    		FindObjectOfType<GameManagerScript>().EndGame();
+    		FindObjectOfType<ManagerGame>().EndGame();
     	}
     }
 }

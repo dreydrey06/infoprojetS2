@@ -1,10 +1,15 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class GameManagerScript : MonoBehaviour
+public class ManagerGame : MonoBehaviour
 {
 	bool GameHasEnded = false;
 	public float restartDelay = 1;
+
+    public void LevelCompleted() {
+
+        Debug.Log("Level completed !!");
+    }
 
     public void EndGame() {
     	if (GameHasEnded == false)
@@ -23,5 +28,3 @@ public class GameManagerScript : MonoBehaviour
 }
 
         
- 
-
