@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: da35aed25acb84d49b3fc444b5027dde
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Eagle GT II
+  fontNames:
+  - Eagle GT II
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: e29e5f6d366c69740a43a0b5c1c459a8, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

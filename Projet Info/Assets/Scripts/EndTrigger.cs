@@ -6,7 +6,7 @@ public class EndTrigger: MonoBehaviour {
 
     void OnTriggerEnter() {
 
-        managerGame.LevelCompleted();
+        managerGame.ActiveLevelCompleted();
 
     }
 }

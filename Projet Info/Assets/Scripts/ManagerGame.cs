@@ -5,10 +5,11 @@ public class ManagerGame : MonoBehaviour
 {
 	bool GameHasEnded = false;
 	public float restartDelay = 1;
+	public GameObject LevelCompleteUI;
 
-    public void LevelCompleted() {
+    public void ActiveLevelCompleted() {
 
-        Debug.Log("Level completed !!");
+        LevelCompleteUI.SetActive(true);
     }
 
     public void EndGame() {
