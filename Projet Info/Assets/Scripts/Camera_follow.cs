@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -17,5 +17,6 @@ public class Camera_follow : MonoBehaviour
     void Update()
     {
         transform.position = player.position + offset;
+        
     }
 }
